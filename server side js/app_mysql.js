@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var multer = require('multer');
 var upload = multer({ dest: 'uploads/'});
 var fs = require('fs');
-var mysql      = require('mysql');
+var mysql = require('mysql');
 var conn = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
