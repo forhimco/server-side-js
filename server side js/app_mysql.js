@@ -130,10 +130,6 @@ app.get(['/topic','/topic/:id'], function(req, res){
     }
   });
 });
-
-
-
-
 app.listen(3000, function(){
     console.log('Conneted 3000 port!');
 });
